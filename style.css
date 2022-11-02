@@ -1,0 +1,95 @@
+@import url('https://fonts.googleapis.com/css2?family=Abel&display=swap');
+a{text-decoration: none}
+
+#Headshot {
+  border-radius: 70px;
+  margin: auto;
+}
+
+h1 {
+  font-family: 'Abel';
+  font-size: 10mm;
+  color: #364F6B;
+  background-color: #F5F5F5;
+  text-align: center
+}
+
+h2 {
+  font-family: 'Abel';
+  color: #3FC1C9;
+  background-color: #F5F5F5;
+}
+
+body {
+  font-family: 'Abel';
+  font-size: 6mm;
+  color: #364F6B;
+  background-color: #364F6B;
+  text-align: center;
+  text-justify: inter-word;
+}
+
+li {
+  display: inline-block;
+  padding: 3%;
+}
+
+.fa-github:before{
+  color: #364F6B;
+  background-color: #F5F5F5;
+}
+
+i.fa-cloud:before {
+  color: #364F6B;
+  background-color: #F5F5F5;
+}
+
+i.fa-facebook:before{
+  color: #364F6B;
+  background-color: #F5F5F5;
+}
+
+i.fa-linkedin:before{
+  color: #364F6B;
+  ;
+}
+
+div.btn{
+  margin: auto;
+  border: 2px solid #364F6B;
+  display:inline-block;
+  padding:0.35em 0.7em;
+  border-radius: 50px;
+  box-sizing: border-box;
+  text-decoration:none;
+  font-weight:300;
+  color:#364F6B;
+  text-align:center;
+  transition: all 0.2s;
+}
+
+div.btn:hover{
+  color:#000000;
+  background-color:#FFFFFF;
+}
+
+@media all and (max-width:30em){
+  div.btn{
+  display:block;
+  margin:0.4em auto;
+  }
+  }
+
+div.card-white{
+  margin: auto;
+  width: 50%;
+  background-color: #F5F5F5;
+  border: 2px solid #364F6B;
+  padding: 10px;
+  border-radius: 50px;
+  box-shadow: 5px 10px;
+}
+
+div span{
+  padding:0.35em 1.2em;
+}
